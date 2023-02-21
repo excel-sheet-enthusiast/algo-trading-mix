@@ -1,0 +1,23 @@
+VID 1: 
+when developing trading alorithms you're trying to model and quantify reality so your algortihm can make input or connections wrt this reality. 
+Data: price; time; fundamental; news data; sentiment data. 
+data -> algo -> broker(via API) == direct approach
+data -> algo-> manually to broker == systematic discretionary hybrid approach 
+
+identify and edge and build strategy, edge comes first 
+if a strategy achieves profitability in a certain timeframe does not mean it has an edge 
+
+in quantitative finance, profitability is not the correct benchmark for performance, comparer to releveant benchmark which is market indexes like S&P5000(in equities)
+strategy with excess returns over significant long period has an edge(alpha) 
+ 
+QUANTPEDIA--> encyclopedia of trading strategies 
+
+RESEARCH -> CODING -> BACKTESTING -> OPTIMIZING -> PAPER TRADING -> LIVE TRADING -> MONITORING. 
+Backtesting -> insights of our strategy in past market trends. 
+
+
+VID 2: 
+quantconncect API 
+quanntconnects lean engine automatically deals with "LOOOKAHEAD BIAS"
+lookahead bias refeers to the algorithm depending on future values such as current day closing prices to rely on present prediction. 
+such strategies pass the backtracking test but are useless in live markets. 
